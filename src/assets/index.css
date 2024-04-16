@@ -72,3 +72,18 @@ svg:hover {
     margin: 1rem;
     border-radius: 0.5rem;
 }
+
+.restart {
+    font-family: "Rock Salt";
+    font-size: 1.3rem;
+    position: absolute;
+    left: 100px;
+    top: 400px;
+    padding: 1rem;
+    border-radius: 1.1rem;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(59, 66, 72);
+    box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.177);
+    background: linear-gradient(#3fa3a3, #344f83);
+}
