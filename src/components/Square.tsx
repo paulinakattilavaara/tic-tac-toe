@@ -1,17 +1,20 @@
 
 type SquareProps = {
-    id: number;
+  id: number;
+  onClick: (id: number) => void;
+  player: string;
 }
 
-const handleClick = (id: number) => {
-  console.log(`Klick på ruta med id: ${id}`);
-};
+const Square = ({ id, onClick, player }: SquareProps) => {
+  const handleClick = () => {
+      onClick(id);
+  };
 
-
-const Square = ({ id }: SquareProps) => {
   return (
-    <div className="square" id={id.toString()} onClick={() => handleClick(id)}></div>
-  )
+      <div className="square" onClick={handleClick}>
+          {player}
+      </div>
+  );
 }
 
 export default Square;
