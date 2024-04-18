@@ -75,7 +75,9 @@ svg:hover {
     height: 10rem;
     margin: 1rem;
     border-radius: 0.5rem;
-    color: rgba(255, 255, 255, 0.656);
+    color: rgba(138, 169, 216, 0.903);
+    text-shadow: 0 0 2px #eeeeee6f, 0 0 20px #0000002c, 0 0 30px #00000032, 0 0 40px #00000076, 
+    0 0 50px #9554b389, 0 0 60px #54b3a076, 0 0 70px #9554b345;
 }
 
 .restart {
@@ -87,7 +89,7 @@ svg:hover {
     padding: 1rem;
     border-radius: 1.1rem;
     border: none;
-    color: rgba(0, 0, 0, 0.76);
+    color: rgba(15, 15, 15, 0.76);
     background-color: rgb(59, 66, 72);
     box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.177);
     background: linear-gradient(#3fa3a3, #344f83);
