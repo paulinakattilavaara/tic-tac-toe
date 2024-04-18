@@ -75,7 +75,7 @@ svg:hover {
     height: 10rem;
     margin: 1rem;
     border-radius: 0.5rem;
-    color: white;
+    color: rgba(255, 255, 255, 0.656);
 }
 
 .restart {
@@ -87,8 +87,22 @@ svg:hover {
     padding: 1rem;
     border-radius: 1.1rem;
     border: none;
-    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.76);
     background-color: rgb(59, 66, 72);
     box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.177);
     background: linear-gradient(#3fa3a3, #344f83);
 }
+
+.button-glow {
+    cursor: pointer;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 10px #1e8fff43, 0 0 20px #1e8fff44, 0 0 30px #1e8fff31, 0 0 40px #1e8fff57, 0 0 50px #1e8fff47;
+    }
+    to {
+      box-shadow: 0 0 20px #87cefa57, 0 0 30px #87cefa5e, 0 0 40px #87cefa34, 0 0 50prgba(135, 206, 250, 0.192)fa;
+    }
+  }

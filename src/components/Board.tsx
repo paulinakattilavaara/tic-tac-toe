@@ -39,7 +39,7 @@ const Board = () => {
         <Square id={8} onClick={handleClick} player={playerMoves[7]} />
         <Square id={9} onClick={handleClick} player={playerMoves[8]} />
       </div>
-      <button className="restart" onClick={handleStart}>Restart game</button>
+      <button className="restart button-glow" onClick={handleStart}>Restart game</button>
     </div>
   )
 }
